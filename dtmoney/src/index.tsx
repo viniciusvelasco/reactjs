@@ -8,7 +8,6 @@ createServer({
     transaction: Model,
   },
   seeds(server) {
-    //server.createList('transaction', 10);
     server.db.loadData({
       transactions: [
         {
