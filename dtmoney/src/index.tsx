@@ -13,7 +13,7 @@ createServer({
         {
           id: 1,
           title: 'Salario',
-          value: 20,
+          value: 2000,
           category: 'Renda',
           type: 'deposit',
           createdAt: new Date('2020-05-20 09:00:00'),
@@ -21,7 +21,7 @@ createServer({
         {
           id: 2,
           title: 'Lanche',
-          value: 10,
+          value: 25.50,
           category: 'Alimentação',
           type: 'withdraw',
           createdAt: new Date('2020-05-20 09:00:00'),
