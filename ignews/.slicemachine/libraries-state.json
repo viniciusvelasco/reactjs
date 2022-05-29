@@ -1,0 +1,77 @@
+{
+  "slices": {
+    "components": {
+      "post": {
+        "library": "slices",
+        "id": "post",
+        "name": "Post",
+        "description": "Post",
+        "model": {
+          "id": "post",
+          "type": "SharedSlice",
+          "name": "Post",
+          "description": "Post",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Post",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "multi": "heading1,heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "post",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Engage web-enabled mindshare",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Anim consectetur proident esse esse esse sint culpa labore deserunt amet cupidatat. Qui enim ad officia.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

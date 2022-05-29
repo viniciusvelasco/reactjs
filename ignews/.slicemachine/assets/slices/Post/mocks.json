@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "post",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Engage web-enabled mindshare",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Anim consectetur proident esse esse esse sint culpa labore deserunt amet cupidatat. Qui enim ad officia.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

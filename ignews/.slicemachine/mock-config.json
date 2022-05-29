@@ -1,0 +1,19 @@
+{
+  "_cts": {
+    "post": {}
+  },
+  "slices": {
+    "Post": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
